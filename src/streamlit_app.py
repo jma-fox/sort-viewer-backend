@@ -78,8 +78,7 @@ def streamlit_app():
             plot_unit_quality(sort_data)
 
             spike_data = get_spike_data(sort_data)
-            task_date = task_data['Date'].iloc[0]
-            file_name = f"{task_date}_unit_{unit}_spikes.csv"
+            file_name = f"unit_{unit}_spikes.csv"
 
             st.download_button(
                 label="Download Unit",
