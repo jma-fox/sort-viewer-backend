@@ -22,8 +22,8 @@ def streamlit_app():
     st.write("")
 
     event_name = st.text_input("Event Name:", value='gabors_on_time')
-    frame_start = float(st.text_input("Frame Start (s):", value='-0.5'))
-    frame_end = float(st.text_input("Frame End (s):", value='1.0'))
+    frame_start = float(st.text_input("Frame Start (s):", value='-0.1'))
+    frame_end = float(st.text_input("Frame End (s):", value='0.2'))
 
     st.write("")
 
